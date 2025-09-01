@@ -35,8 +35,8 @@ SELECT
     COUNT(DISTINCT MDate) AS Total_Games,
     SUM(pts) AS Total_Points,
     ROUND(SUM(pts)/COUNT(DISTINCT MDate), 2) AS Avg_game_points,
-    SUM(CASE WHEN res = 'W' THEN pts END) AS Points_at_wins,
-    SUM(CASE WHEN res = 'L' THEN pts END) AS Points_at_Loses
+    SUM(CASE WHEN res = 'W' THEN pts END) AS Points_in_wins,
+    SUM(CASE WHEN res = 'L' THEN pts END) AS Points_in_Loses
 FROM player_stats
 GROUP BY tm
 ORDER BY Total_Points DESC;
