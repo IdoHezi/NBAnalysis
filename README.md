@@ -12,7 +12,7 @@ Aggregations & conditional logic
 The analysis is done on a dataset of NBA games with player statistics (points, rebounds, assists, game score, etc.).
 
 📊 Key Analyses & Queries
-1. Team Points Analysis
+## 1. Team Points Analysis
 
 Total games played, points scored, and average points per game.
 Breakdown of points in wins vs. losses.
