@@ -1,4 +1,4 @@
-# NBAnalysis
+# NBA Analysis
 NBA SQL Analytics Project
 📌 Project Overview
 
