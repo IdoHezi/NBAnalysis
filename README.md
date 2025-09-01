@@ -18,7 +18,7 @@ Total games played, points scored, and average points per game.
 Breakdown of points in wins vs. losses.
 ### Team Performance Summary
 Sample Output:
-| Team | Total Games | Total Points | Avg Game Points | Points at Wins | Points at Losses |
+| Team | Total Games | Total Points | Avg Game Points | Points in Wins | Points in Losses |
 |------|-------------|--------------|-----------------|----------------|------------------|
 | CLE  | 52          | 6366         | 122.42          | 5231           | 1135             |
 | MEM  | 51          | 6312         | 123.76          | 4493           | 1819             |
